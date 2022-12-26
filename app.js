@@ -31,21 +31,21 @@ app.use('/', express.static('public'));
 app.get('/',(re, res) =>{
     res.render('home', {
         nombre:'Bily Gomez',
-        titulo:'Curso de node'
+        titulo:'Página estatica renderizada desde el server con nodejs '
     });
 });
 
 app.get('/elements', function (req, res) {
     res.render('elements', {
         nombre:'Bily Gomez',
-        titulo:'Curso de node'
+        titulo:'Página estatica renderizada desde el server con nodejs '
     });
 });
 
 app.get('/generic', function (req, res) {
     res.render('generic', {
         nombre:'Bily Gomez',
-        titulo:'Curso de node'
+        titulo:'Página estatica renderizada desde el server con nodejs '
     });
 });
 
